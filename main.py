@@ -12,3 +12,7 @@ import telebot
 from telebot import types
 from datetime import datetime
 import matplotlib.pyplot as plt
+
+MY_TOKEN = "8590324035:AAEIFPKl9zXyXfoch3zGNIG3yT8bvwB_4-0"
+
+bot = telebot.TeleBot(MY_TOKEN)
